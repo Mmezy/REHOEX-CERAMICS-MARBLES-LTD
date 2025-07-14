@@ -539,7 +539,7 @@
         }
 
         .home__container {
-            grid-template-columns: repeat(2, max-content);
+            /* grid-template-columns: repeat(2, max-content); */
         }
 
         .home__data {
@@ -643,10 +643,6 @@
 
 
     @media screen and (min-width: 760px) {
-    .destination__container,
-    .gallery__container {
-        grid-template-columns: repeat(2, 300px);
-    }
 
     .footer__content {
         grid-template-columns: repeat(4, max-content);
@@ -658,8 +654,8 @@
 /* For medium devices */
 @media screen and (min-width: 576px) {
     .home__container {
-        grid-template-columns: 400px;
-        justify-content: center;
+        /* grid-template-columns: 400px;
+        justify-content: center; */
     }
 
     .home__swiper {
