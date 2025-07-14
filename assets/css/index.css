@@ -206,6 +206,7 @@
     .hoem {
         background-color: rgb(4, 4, 103);
         color: var(--white-color);
+        height: 100vh;
     }
 
 
@@ -539,7 +540,7 @@
         }
 
         .home__container {
-            /* grid-template-columns: repeat(2, max-content); */
+            grid-template-columns: repeat(2, max-content);
         }
 
         .home__data {
