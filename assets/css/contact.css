@@ -1,4 +1,4 @@
-    /* ====== GOOGLE FONTS ====== */
+/* ====== GOOGLE FONTS ====== */
     @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@100..900&display=swap");
 
     /*=============== VARIABLES CSS ===============*/
@@ -46,7 +46,7 @@
     }
 
     body {
-        /* background-color: var(--body-color); */
+        background-color: var(--body-color);
         color: var(--text-color);
         transition: background-color .4s;
     }
@@ -97,8 +97,7 @@
         overflow: hidden;
     }
 
-
-    .contac {
+       .contac {
         display: flex;
         text-align: center;
         justify-content: center;
@@ -115,9 +114,7 @@
         margin-left: 10px;
     }
 
-
-
-    /*=============== HEADER & NAV ===============*/
+     /*=============== HEADER & NAV ===============*/
     .header {
         position: fixed;
         width: 100%;
@@ -192,9 +189,7 @@
         right: 1.5rem;
     }
 
-
-
-    /*=============== HOME ===============*/
+      
     .home {
         position: relative;
     }
@@ -225,148 +220,24 @@
         margin-top: 80px;
     }
 
-    .connect p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
+        /*=============== HOME ===============*/
+    .home {
+        position: relative;
     }
 
-    .connect__box {
-        background-color: var(--white-color);
-        margin-top: 10px;
-        color: var(--black-color);
-        font-size: 15px;
-        padding-top: 10px;
-        height: 230px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    .home__container {
+        margin-top: 50px;
     }
 
-    .contae {
-        padding-top: 20px;
-        height: 200px;
-    }
-
-    .connect__box .conn {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .connect__box h4 {
-        margin-top: 30px;
-        font-size: 18px;
-    }
-
-    .connect__box p {
-        font-size: 14px;
-    }
-
-    .bg__dark {
-        background-color: var(--body-color);
+    .hoem {
+        background-color: rgb(4, 4, 103);
         color: var(--white-color);
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 250px;
+        height: 100vh;
     }
 
 
-    .contactbox__data {
-        align-items: center;
-        justify-content: center;
-        display: flexbox;
-    }
-
-
-    .contactbox__data h1 {
-        margin-top: 30px;
-    }
-
-    .upper__line {
-        width: 200px;
-        height: 10px;
-        border: 2px solid red;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        text-align: center;
-    }
-
-    .contactbox {
-        color: var(--white-color);
-        /* width: 360px; */
-        padding: 20px;
-        font-size: 20px;
-        font-size: 500;
-        /* height: 20px; */
-        background-color: red;
-        border: 3px solid orange;
-        text-decoration: none;
-        margin-top: 30px;
-    }
-
-    .other__services {
-        grid-template-columns: repeat(3, max-content);
-        gap: 10rem;
-    }
-
-    .row1 span {
-        padding-right: 180px;
-    }
-
-    .row2 span {
-        margin-right: 167px;
-    }
-
-    .move {
-        padding-right: 30px;
-    }
-
-    .row3 span {
-        padding-right: 170px;
-
-    }
-
-    .move2 {
-        padding-right: 30px;
-    }
-
-    .row4 span {
-        margin-right: 167px;
-    }
-
-    .conn__data .conn__img {
-        display: flex;
-        align-items: center;
-        width: 80px;
-        margin-left: 70px;
-        /* height: 300px; */
-        margin-block: -1rem;
-    }
-
-    .conn {
-        font-size: 900;
-    }
-
-    .conn__data {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .contact__card {
-        border: 2px solid black;
-        width: 280px;
-        height: 200px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-top: 30px;
-        font-size: 20px;
-    }
-
-    /*=============== CONTACT ===============*/
+         /*=============== CONTACT ===============*/
     .contact__container {
         row-gap: 3rem;
         padding-block: 1.5rem 3rem;
@@ -377,11 +248,7 @@
         justify-self: center;
     }
 
-    .contact__data {
-        grid-template-columns: 230px;
-        justify-content: center;
-        row-gap: 1.5rem;
-    }
+    
 
     .contact__card {
         bottom: var(--container-color);
@@ -396,14 +263,14 @@
     }
 
     .contact__icon {
-        width: 48px;
-        height: 48px;
+        width: 55px;
+        height: 55px;
         background-color: var(--black-color);
         color: var(--white-color);
         border-radius: 50%;
         display: grid;
         place-items: center;
-        font-size: 2rem;
+        font-size: 2.4rem;
         margin: 0 auto 1.5rem;
     }
 
@@ -433,8 +300,37 @@
         transform: translateY(-.25rem);
     }
 
+ .other__services {
+        grid-template-columns: repeat(3, max-content);
+        gap: 10rem;
+    }
 
-    /*=============== FOOTER ===============*/
+     .row1 span {
+        padding-right: 180px;
+    }
+
+    .row2 span {
+        margin-right: 167px;
+    }
+
+    .move {
+        padding-right: 30px;
+    }
+
+    .row3 span {
+        padding-right: 170px;
+
+    }
+
+    .move2 {
+        padding-right: 30px;
+    }
+
+    .row4 span {
+        margin-right: 167px;
+    }
+
+        /*=============== FOOTER ===============*/
     .footer {
         background-color: var(--black-color);
         padding-block: 4rem 2rem;
@@ -506,7 +402,8 @@
     }
 
 
-    /* Navigation for mobile devices */
+
+     /* Navigation for mobile devices */
     @media screen and (max-width: 1150px) {
         .nav__menu {
             position: fixed;
@@ -528,101 +425,19 @@
             height: 400px;
         }
 
-        .nav__logo {
-            padding-left: 20px;
-        }
-
-        .connect__box {
-            margin: 0%;
-            padding: 0;
-        }
-
-
-        .connect__box {
-            width: 300px;
-            justify-self: center;
-            align-items: center;
-            display: flex;
-            margin-left: 10px;
-        }
-
-        .about__info {
-            margin-top: 100px;
-        }
-
-        .upper__line {
-            margin-left: 60px;
-            margin-top: 80px;
-            background-color: rgb(95, 7, 7);
-            border: none;
-        }
-
-        .home__data {
+         .home__data {
             padding-top: 50px;
-        }
-
-        input {
-            padding-left: 10px;
-            height: 50px;
-        }
-
-
-        .Name input {
-            width: 295px;
-        }
-
-        .box__shadow .company input {
-            width: 295px;
-        }
-
-        .message textarea {
-            width: 295px;
-            height: 180px;
-            margin-bottom: 20px;
-            padding-left: 10px;
-        }
-
-        .conn__data .conn__img {
-            display: flex;
-            align-items: center;
-            width: 80px;
-            margin-left: 110px;
-            /* height: 300px; */
-            margin-block: -1rem;
-        }
-
-        .contae {
-            margin-bottom: 40px;
-        }
-
-        .bg {
-            height: 65rem;
-        }
-
-        .contact__card {
-            margin-left: -16px;
         }
     }
 
-
-    .show-menu {
+     .show-menu {
         top: 0%;
     }
 
 
-    /* Large screen */
-
-    @media screen and (min-width: 1150px) {
+     @media screen and (min-width: 1150px) {
         .container {
             margin-inline: auto;
-        }
-
-        .section {
-            padding-bottom: 7rem 2rem;
-        }
-
-        .section__title {
-            margin-bottom: 4rem;
         }
 
         .nav {
@@ -649,6 +464,7 @@
             color: var(--white-color);
         }
 
+        
         .home__data {
             width: 600px;
         }
@@ -673,92 +489,14 @@
             margin-bottom: 30px;
         }
 
-        .about__img img {
-            padding-top: 50px;
-            height: 400px;
-            object-position: center;
-            object-fit: cover;
-        }
-
-        .content {
-            grid-template-columns: repeat(4, max-content);
-        }
-
-        .connect__box .conn__data {
-            width: 250px;
-            padding-left: 20px;
-        }
-
-        .contae {
-            padding-top: 50px;
-            height: 280px;
-        }
-
-        .upper__line {
-            margin-left: 430px;
-            margin-top: 80px;
-            background-color: rgb(95, 7, 7);
-            border: none;
-        }
-
-
-        input {
-            padding-left: 10px;
-            height: 55px;
-        }
-
-        .Name {
-            width: 620px;
-        }
-
-        .Name input {
-            margin-right: 10px;
-            width: 295px;
-        }
-
-        .box__shadow .company input {
-            width: 604px;
-        }
-
-        .message textarea {
-            width: 604px;
-            height: 180px;
-            margin-bottom: 20px;
-            padding-left: 10px;
-        }
-
-
-
-        .contact :is(.section__title, .section__subtitle) {
-            text-align: initial;
-        }
-
-        .contact__container {
-            grid-template-columns: 530px 515px;
-            justify-content: initial;
-            align-items: flex-start;
-            column-gap: 3.5rem;
-            padding-block: 3.5rem 4rem;
-        }
-
-        .contact__img {
-            width: 530px;
-        }
-
         .contact__data {
-            gap: 2rem;
-        }
+        grid-template-columns: 230px;
+        justify-content: space-between;
+        display: flex;
+        row-gap: 1.5rem;
+    }
 
-        .contact__card {
-            border-width: 3px;
-            /* margin: 10px; */
-        }
-
-        .contact__title {
-            font-size: var(--h3-font-size);
-        }
-
-        .footer {
+       .footer {
             padding-top: 4.5rem;
         }
 
@@ -788,45 +526,15 @@
         .footer__links {
             flex-direction: row;
         }
-
-
     }
 
 
-    @media screen and (min-width: 760px) {
-
-        .footer__content {
-            grid-template-columns: repeat(4, max-content);
-        }
-
-    }
-
-
+    
     /* For medium devices */
     @media screen and (min-width: 576px) {
-
-        .home__swiper {
-            max-width: 400px;
-        }
-
-        .testimonial__img {
-            width: 400px;
-        }
-
-        .testimonial__swiper {
-            max-width: 400px;
-        }
-
-        .join__container {
-            grid-template-columns: 380px;
-            justify-content: center;
-        }
-
-        .join__img {
-            width: 380px;
-        }
-
         .footer__content {
             grid-template-columns: repeat(3, max-content);
         }
     }
+
+  
